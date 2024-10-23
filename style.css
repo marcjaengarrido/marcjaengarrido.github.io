@@ -1,0 +1,11 @@
+div {
+    background-color: red;
+}
+
+#inputCMD {
+    all:unset;
+    background-color: red;
+    border: 0;
+    width:0;
+}
+
