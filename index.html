@@ -8,9 +8,11 @@
         <div>
             Linea de comandos
         </div>
-        <span>
-            <span onclick="focusInput()" id="currentCMD">Input</span><input id="inputCMD"><span>hola</span>
-        </span>
+        <div class="inputContainer">
+            <div onclick="focusInput()" class="textHolder">
+                <span id="currentCMD">Input</span><input id="inputCMD" autocomplete="off"><span id="suggestionTerminal"></span>
+            </div>
+        </div>
     </div>
 </body>
 <script src="./script.js"></script>
